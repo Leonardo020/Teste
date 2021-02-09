@@ -1,0 +1,13 @@
+comandos git:
+git log --decorate: 
+permite ver informações mais específicas sobre o commit;
+git log --author="Leonardo": 
+filtra os autores dos commits. No caso, filtrando o autor Leonardo;
+git shortlog: 
+mostra os commits feitos e os respectivos autores. Além de numerar a quantidade de commits que os autores realizaram;
+git shortlog -sn: 
+mostra uma lista dos autores e o número de commits realizados por eles;
+git log --graph: 
+determina um gráfico onde se diferenciam as branchs e os merges;
+git show: 
+permite visualizar o conteúdo dos arquivos, podendo especificar entre nomes, códigos de commit, etc;
